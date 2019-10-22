@@ -1,6 +1,14 @@
 # Shapes-Lab
-Java lab meant to teach inheritence
+## Project Summary
 
+Java lab meant to teach inheritence. In this lab, we initially wrote each shape file (Circle, Triangle, and Rectangle) seperately, even though we had code that was copied throughout the files. In order to fix this issue, we created a superclass and called it Shapes. Shapes includes common variables like x, y, and z, and common methods, like toString and area.
+
+## Running the Program
+
+This code was written in Java 1.7. 
+\
+\
+In order to run, you need to have JRE 1.7 and you will be able to run the java archive (.jar) file attached, or download the code and import it into a compiler (capable of compiling Java 1.7), compile it, and run it.
 
 
  # ShapesLab.java
@@ -9,12 +17,14 @@ Java lab meant to teach inheritence
 
 Tests if the shapes classes function properly
 
+# Main class
+
 ## `public static void main(String[] args)`
 
 Creates 6 shapes (2 of each), cycles through each of them, and prints their String format to the System
 
  * **Parameters:** `args` — the command line arguments
- 
+
  
  
 # Circle.java
@@ -22,6 +32,8 @@ Creates 6 shapes (2 of each), cycles through each of them, and prints their Stri
 ## `public class Circle extends Shape`
 
 Creates a Circle object
+
+# Constructor
 
 ## `public Circle(int X, int Y, int Z, double radius)`
 
@@ -33,11 +45,15 @@ Creates a Circle shaped object
    * `Y` — int Y coordinate of the center of this Circle
    * `Z` — int Z coordinate of the center of this Circle
 
+# Setters
+
 ## `public void setRadius(double newRadius)`
 
 Sets this Circle's radius
 
  * **Parameters:** `newRadius` — double new radius of the circle
+ 
+ # Getters
 
 ## `public double getRadius()`
 
@@ -65,6 +81,8 @@ Returns String format of this Circle
 
 Creates a 3D Point Object
 
+# Constructor
+
 ## `public Point(int X, int Y, int Z)`
 
 Creates a point object
@@ -73,6 +91,8 @@ Creates a point object
    * `X` — int X coordinate (between 0 and 500)
    * `Y` — int Y coordinate (between 0 and 500)
    * `Z` — int Z coordinate (between 0 and 500)
+
+# Getters
 
 ## `public int getX()`
 
@@ -106,6 +126,8 @@ Gets the coordinates of this Point
 
 Creates a Rectangle Object
 
+# Constructor
+
 ## `public Rectangle(int X, int Y, int Z, double base, double height)`
 
 Creates a Rectangle shaped object
@@ -116,6 +138,8 @@ Creates a Rectangle shaped object
    * `X` — int X coordinate of the center of this Rectangle
    * `Y` — int Y coordinate of the center of this Rectangle
    * `Z` — int Z coordinate of the center of this Rectangle
+
+# Setters
 
 ## `public void setBase(double newBase)`
 
@@ -128,6 +152,8 @@ Sets this Rectangle's base
 Sets this Rectangle's height
 
  * **Parameters:** `newHeight` — double new height for this Rectangle
+ 
+ # Getters
 
 ## `public double getBase()`
 
@@ -161,6 +187,8 @@ Returns String format of this Rectangle
 
 Parent class for the other shapes
 
+# Constructor
+
 ## `public Shape(int X, int Y, int Z)`
 
 Creates a Shape object, superclass for other shapes
@@ -170,11 +198,15 @@ Creates a Shape object, superclass for other shapes
    * `Y` — int Y coordinate of the center of the shape
    * `Z` — int Z coordinate of the center of the shape
 
+# Setters
+
 ## `public void setCenter(Point cent)`
 
 Sets this Shape's Point center
 
  * **Parameters:** `cent` — Point center of this Shape
+ 
+ # Getters
 
 ## `public int getX()`
 
@@ -208,6 +240,8 @@ Gets the coordinates of the center of this Shape
 
 Creates a Triangle object
 
+# Constructor
+
 ## `public Triangle(int X, int Y, int Z, double base, double height)`
 
 Creates a Triangle shaped object
@@ -218,6 +252,8 @@ Creates a Triangle shaped object
    * `X` — int X coordinate of this Triangle
    * `Y` — int Y coordinate of this Triangle
    * `Z` — int Z coordinate of this Triangle
+
+# Setters
 
 ## `public void setBase(double newBase)`
 
@@ -230,6 +266,8 @@ Sets this Triangle's base
 Sets this Triangle's height
 
  * **Parameters:** `newHeight` — double new height value of this Triangle
+ 
+ # Getters
 
 ## `public double getBase()`
 
