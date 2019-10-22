@@ -8,7 +8,7 @@ Java lab meant to teach inheritence. In this lab, we initially wrote each shape 
 This code was written in Java 1.7. 
 \
 \
-In order to run, you need to have JRE 1.7 and you will be able to run the java archive (.jar) file attached, or download the code and import it into a compiler (capable of compiling Java 1.7), compile it, and run it.
+In order to run, download the code and import it into a compiler (capable of compiling Java 1.7), compile it, and run it.
 
 
  # ShapesLab.java
