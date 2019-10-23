@@ -13,13 +13,13 @@ In order to run, download the code and import it into a compiler (capable of com
 
  # ShapesLab.java
 
-## `public class ShapesLab`
+### `public class ShapesLab`
 
 Tests if the shapes classes function properly
 
-# Main class
+## Main class
 
-## `public static void main(String[] args)`
+### `public static void main(String[] args)`
 
 Creates 6 shapes (2 of each), cycles through each of them, and prints their String format to the System
 
@@ -29,13 +29,13 @@ Creates 6 shapes (2 of each), cycles through each of them, and prints their Stri
  
 # Circle.java
 
-## `public class Circle extends Shape`
+### `public class Circle extends Shape`
 
 Creates a Circle object
 
-# Constructor
+## Constructor
 
-## `public Circle(int X, int Y, int Z, double radius)`
+### `public Circle(int X, int Y, int Z, double radius)`
 
 Creates a Circle shaped object
 
@@ -45,29 +45,29 @@ Creates a Circle shaped object
    * `Y` — int Y coordinate of the center of this Circle
    * `Z` — int Z coordinate of the center of this Circle
 
-# Setters
+## Setters
 
-## `public void setRadius(double newRadius)`
+### `public void setRadius(double newRadius)`
 
 Sets this Circle's radius
 
  * **Parameters:** `newRadius` — double new radius of the circle
  
- # Getters
+ ## Getters
 
-## `public double getRadius()`
+### `public double getRadius()`
 
 Gets the radius of this Circle
 
  * **Returns:** double radius of Circle
 
-## `@Override public double area()`
+### `@Override public double area()`
 
 Gets the area of this Circle
 
  * **Returns:** double area of this Circle
 
-## `@Override public String toString()`
+### `@Override public String toString()`
 
 Returns String format of this Circle
 
@@ -77,13 +77,13 @@ Returns String format of this Circle
  
  # Point.java
 
-## `public class Point`
+### `public class Point`
 
 Creates a 3D Point Object
 
-# Constructor
+## Constructor
 
-## `public Point(int X, int Y, int Z)`
+### `public Point(int X, int Y, int Z)`
 
 Creates a point object
 
@@ -92,27 +92,27 @@ Creates a point object
    * `Y` — int Y coordinate (between 0 and 500)
    * `Z` — int Z coordinate (between 0 and 500)
 
-# Getters
+## Getters
 
-## `public int getX()`
+### `public int getX()`
 
 Gets the X coordinate of this Point
 
  * **Returns:** X coordinate of this Point
 
-## `public int getY()`
+### `public int getY()`
 
 Gets the Y coordinate of this Point
 
  * **Returns:** Y coordinate of this Point
 
-## `public int getZ()`
+### `public int getZ()`
 
 Gets the Z coordinate of this Point
 
  * **Returns:** Z coordinate of this Point
 
-## `public String getCoordinates()`
+### `public String getCoordinates()`
 
 Gets the coordinates of this Point
 
@@ -122,13 +122,13 @@ Gets the coordinates of this Point
 
 # Rectangle.java
 
-## `public class Rectangle extends Shape`
+### `public class Rectangle extends Shape`
 
 Creates a Rectangle Object
 
-# Constructor
+## Constructor
 
-## `public Rectangle(int X, int Y, int Z, double base, double height)`
+### `public Rectangle(int X, int Y, int Z, double base, double height)`
 
 Creates a Rectangle shaped object
 
@@ -139,41 +139,41 @@ Creates a Rectangle shaped object
    * `Y` — int Y coordinate of the center of this Rectangle
    * `Z` — int Z coordinate of the center of this Rectangle
 
-# Setters
+## Setters
 
-## `public void setBase(double newBase)`
+### `public void setBase(double newBase)`
 
 Sets this Rectangle's base
 
  * **Parameters:** `newBase` — double new base for this Rectangle
 
-## `public void setHeight(double newHeight)`
+### `public void setHeight(double newHeight)`
 
 Sets this Rectangle's height
 
  * **Parameters:** `newHeight` — double new height for this Rectangle
  
- # Getters
+ ## Getters
 
-## `public double getBase()`
+### `public double getBase()`
 
 Gets the base of this Rectangle
 
  * **Returns:** double base of this Rectangle
 
-## `public double getHeight()`
+### `public double getHeight()`
 
 Gets the height of this Rectangle
 
  * **Returns:** double height of this Rectangle
 
-## `@Override public double area()`
+### `@Override public double area()`
 
 Gets the area of this Rectangle
 
  * **Returns:** double area of this Rectangle
 
-## `@Override public String toString()`
+### `@Override public String toString()`
 
 Returns String format of this Rectangle
 
@@ -183,13 +183,13 @@ Returns String format of this Rectangle
 
 # Shapes.java
 
-## `public abstract class Shape`
+### `public abstract class Shape`
 
 Parent class for the other shapes
 
-# Constructor
+## Constructor
 
-## `public Shape(int X, int Y, int Z)`
+### `public Shape(int X, int Y, int Z)`
 
 Creates a Shape object, superclass for other shapes
 
@@ -198,35 +198,35 @@ Creates a Shape object, superclass for other shapes
    * `Y` — int Y coordinate of the center of the shape
    * `Z` — int Z coordinate of the center of the shape
 
-# Setters
+## Setters
 
-## `public void setCenter(Point cent)`
+### `public void setCenter(Point cent)`
 
 Sets this Shape's Point center
 
  * **Parameters:** `cent` — Point center of this Shape
  
- # Getters
+ ## Getters
 
-## `public int getX()`
+### `public int getX()`
 
 Gets the X coordinate of Point center of this Shape
 
  * **Returns:** int X coordinate of the center of this Shape
 
-## `public int getY()`
+### `public int getY()`
 
 Gets the Y coordinate of Point center of this Shape
 
  * **Returns:** int Y coordinate of the center of this Shape
 
-## `public int getZ()`
+### `public int getZ()`
 
 Gets the Z coordinate of Point center of this Shape
 
  * **Returns:** int Z coordinate of the center of this Shape
 
-## `public String getCenter()`
+### `public String getCenter()`
 
 Gets the coordinates of the center of this Shape
 
@@ -236,13 +236,13 @@ Gets the coordinates of the center of this Shape
 
 # Triangle.java
 
-## `public class Triangle extends Shape`
+### `public class Triangle extends Shape`
 
 Creates a Triangle object
 
-# Constructor
+## Constructor
 
-## `public Triangle(int X, int Y, int Z, double base, double height)`
+### `public Triangle(int X, int Y, int Z, double base, double height)`
 
 Creates a Triangle shaped object
 
@@ -253,41 +253,41 @@ Creates a Triangle shaped object
    * `Y` — int Y coordinate of this Triangle
    * `Z` — int Z coordinate of this Triangle
 
-# Setters
+## Setters
 
-## `public void setBase(double newBase)`
+### `public void setBase(double newBase)`
 
 Sets this Triangle's base
 
  * **Parameters:** `newBase` — double new base value of this Triangle
 
-## `public void setHeight(double newHeight)`
+### `public void setHeight(double newHeight)`
 
 Sets this Triangle's height
 
  * **Parameters:** `newHeight` — double new height value of this Triangle
  
- # Getters
+ ## Getters
 
-## `public double getBase()`
+### `public double getBase()`
 
 Gets the base of this Triangle
 
  * **Returns:** double base of this Triangle
 
-## `public double getHeight()`
+### `public double getHeight()`
 
 Gets the height of this Triangle
 
  * **Returns:** double height of this Triangle
 
-## `@Override public double area()`
+### `@Override public double area()`
 
 Gets the area of this Triangle
 
  * **Returns:** double area of this Triangle
 
-## `@Override public String toString()`
+### `@Override public String toString()`
 
 Returns String format of this Triangle
 
